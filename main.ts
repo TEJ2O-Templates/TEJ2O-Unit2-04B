@@ -20,4 +20,5 @@ input.onButtonPressed(Button.A, function () {
   basic.pause(1000)
   basic.showString("The perimeter is: " + perimeter + " cm.")
   basic.clearScreen()
+  basic.showIcon(IconNames.Happy)
 })
