@@ -6,15 +6,15 @@
 */
 
 // variables
-let temperature = 0
+let currentTemperature = 0
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
   basic.clearScreen()
-  temperature = input.temperature()
-  basic.showString('The temperature is: ' + temperature.toString() + ' C.')
+  currentTemperature = input.temperature()
+  basic.showString('The temperature is: ' + currentTemperature.toString() + ' C.')
   basic.clearScreen()
   basic.showIcon(IconNames.Happy)
 })
