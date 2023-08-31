@@ -2,7 +2,7 @@
  *
  * Created by: Mr. Coxall
  * Created on: Sep 2020
- * This program calculates area and perimeter of rectangle.
+ * This program shows current temperature.
 */
 
 // variables
