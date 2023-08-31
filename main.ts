@@ -6,8 +6,8 @@
 */
 
 // variables
-let area = 3 * 5
-let perimeter = 2 * (3 + 5)
+const area = 3 * 5
+const perimeter = 2 * (3 + 5)
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
