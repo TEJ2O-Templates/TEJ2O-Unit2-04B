@@ -6,19 +6,15 @@
 */
 
 // variables
-const area = 3 * 5
-const perimeter = 2 * (3 + 5)
+let temperature = 0
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
   basic.clearScreen()
-  basic.showString('The dimensions of a rectangle are 5 cm and 3 cm.')
-  basic.pause(1000)
-  basic.showString('The area is: ' + area.toString() + ' cm^2.')
-  basic.pause(1000)
-  basic.showString('The perimeter is: ' + perimeter.toString() + ' cm.')
+  temperature = input.temperature()
+  basic.showString('The temperature is: ' + temperature.toString() + ' C.')
   basic.clearScreen()
   basic.showIcon(IconNames.Happy)
 })
